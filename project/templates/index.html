@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>Upload your files here</h1>
+<form action="{{ url_for('save') }}" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image">
+    <input type="submit">
+</form>
+</body>
+</html>
